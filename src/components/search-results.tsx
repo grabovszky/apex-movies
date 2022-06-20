@@ -4,6 +4,7 @@ import { searchTmdb } from "../utils/search-tmdb"
 import Card from "../components/card"
 import { TabPanel, Tabs } from "../components/tab-overview"
 import { primaryColorStyle } from "../index.css"
+import Loading from "./loading"
 
 const IMAGE_URL = `https://image.tmdb.org/t/p/`
 
@@ -15,7 +16,7 @@ const SearchResults: React.FC<{ query: string }> = ({ query }) => {
   const { status, data, error } = useQuery([`search`, query], async () => searchTmdb({ query }))
 
   if (status === `loading`) {
-    return <p>Loading...</p>
+    return <Loading />
   }
 
   if (status === `error` && error instanceof Error) {
