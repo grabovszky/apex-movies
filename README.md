@@ -19,6 +19,8 @@
 
 A simple movie and tv show search site made with gatsby, backed by the TMBD API.
 
+**Check out the [Demo Site](https://apexmovies.gatsbyjs.io) to see the site in action.**
+
 ### Built With
 
 - [React](https://reactjs.org)
