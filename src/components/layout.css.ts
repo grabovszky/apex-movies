@@ -10,6 +10,7 @@ export const footerStyle = style({
 
 export const mainStyle = style({
   maxWidth: `1200px`,
+  minHeight: `calc(80vh - 6rem)`,
   margin: `0 auto`,
   padding: `3rem 1rem`,
   "@media": {

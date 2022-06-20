@@ -10,7 +10,7 @@ export const searchBarWrapperStyle = style({
 })
 
 export const searchBarFormStyle = style({
-    width: `640px`,
+    width: `clamp(380px, 80vw, 640px)`,
     padding: `0.75rem 1rem`,
 
     backgroundColor: `transparent`,
