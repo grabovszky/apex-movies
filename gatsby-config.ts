@@ -6,7 +6,7 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: process.env.TITLE || `Apex Movies`,
     description: process.env.DESC || `A simple movie and tv show search site made with gatsby, backed by the TMBD API.`,
-    siteUrl: process.env.URL || `https://apex-movies.netlify.app`,
+    siteUrl: process.env.URL || `https://apexmovies.gatsbyjs.io`,
     logo: `/logo.png`,
   },
   plugins: [

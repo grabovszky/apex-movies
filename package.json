@@ -5,7 +5,7 @@
   "description": "A simple movie and tv show search site made with gatsby, backed by the TMBD API.",
   "license": "MIT",
   "author": "Kristóf Gábor <gaborkristof@protonmail.com>",
-  "homepage": "https://apex-moveis.netlify.app",
+  "homepage": "https://apexmovies.gatsbyjs.io",
   "repository": "https://github.com/grabovszky/apex-movies.git",
   "bugs": "https://github.com/grabovszky/apex-movies/issues",
   "keywords": [
