@@ -30,6 +30,10 @@ A simple movie and tv show search site made with gatsby, backed by the TMBD API.
 ### Prerequisites
 
 - [Node.js 16 or later](https://nodejs.org/en/)
+- `TMDB API key` and `Session ID`
+  1. [Create your API key](https://developers.themoviedb.org/3/getting-started/introduction)
+  2. [Generate a Session ID](https://developers.themoviedb.org/3/authentication/how-do-i-generate-a-session-id)
+  3. Save both values inside an `.env` file as environment variables.
 
 ### Installation
 
