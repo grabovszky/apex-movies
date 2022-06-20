@@ -15,23 +15,6 @@ const config: GatsbyConfig = {
       options: {
         apiKey: process.env.API_KEY,
         sessionID: process.env.SESSION_ID,
-        timezone: `Europe/Hungary`,
-        region: `HU`,
-        endpoints: [
-          {
-            url: `account/:account_id/favorite/movies`,
-            extension: {
-              url: `movie/:movie_id`,
-            },
-          },
-          {
-            url: `account/:account_id/favorite/tv`,
-            downloadImages: true,
-            extension: {
-              url: `tv/:tv_id`,
-            },
-          },
-        ],
       } as TMDBPluginOptions,
     },
     `gatsby-plugin-image`,

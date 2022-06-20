@@ -3,6 +3,7 @@ import { themeVars } from "../styles.css"
 
 export const searchBarWrapperStyle = style({
   color: themeVars.color.primary,
+  marginTop: `3rem`,
   marginBottom: `6rem`,
   display: `flex`,
   justifyContent: `center`,
